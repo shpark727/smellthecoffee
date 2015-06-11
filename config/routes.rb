@@ -1,4 +1,6 @@
 Smellcoffee::Application.routes.draw do
+  get "choice/tastes"
+  get "choice/show"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
